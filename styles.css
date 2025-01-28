@@ -510,3 +510,18 @@ footer p {
         margin: 10px;
     }
 }
+@media (max-width: 480px) {
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .header, .footer {
+    font-size: 14px;
+  }
+}
